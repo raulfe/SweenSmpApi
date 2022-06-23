@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sween.API</name>
+    </assembly>
+    <members>
+        <member name="M:Sween.API.Controllers.ContactsController.MyContacts(System.Int32)">
+            <summary>
+            Obtiene una lista de contactos para un usuario especifico
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.ContactsController.Pending(System.Int32)">
+            <summary>
+            Obtiene una lista de contactos pendientes por aceptar
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.ContactsController.Follow(System.Int32)">
+            <summary>
+            Obtiene lista de follows
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.ContactsController.Send(Sween.Core.Entities.UserContact)">
+            <summary>
+            Proceso de solicitud de seguimiento a un usuario
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.ContactsController.Accept(System.Int32,System.Int32)">
+            <summary>
+            Proceso de aceptación de seguimiento a un usuario
+            </summary>
+            <param name="id1"></param>
+            <param name="id2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.ContactsController.Reject(System.Int32,System.Int32)">
+            <summary>
+            Proceso de rechazo de seguimiento a un usuario
+            </summary>
+            <param name="id1"></param>
+            <param name="id2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.ContactsController.Unfollow(System.Int32,System.Int32)">
+            <summary>
+            Proceso de unfollow  a un usuario
+            </summary>
+            <param name="id1"></param>
+            <param name="id2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.GroupController.MyGroups(System.String,System.Int32)">
+            <summary>
+            Obtencion de lista de grupos basado en un arreglo de id's de tus grupos
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.GroupController.InsertGroup(Sween.Core.Entities.Group)">
+            <summary>
+            Creación de un nuevo grupo
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.GroupController.UpdateGroup(System.Int32,System.String)">
+            <summary>
+            Actualización de descripcion de Grupo
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.GroupController.DeleteGroup(System.Int32)">
+            <summary>
+            Eliminacion permanente de grupos
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.MessageController.GetMessagesFromGroup(System.Int32,System.Int32)">
+            <summary>
+            Obtiene los mensajes filtrados mediante el parametro del ID del grupo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.MessageController.SendMessage(Sween.Core.DTOs.MessageBlobDTO)">
+            <summary>
+            Inserta un mensaje configurado
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.GetUsers(Sween.Core.QueryFilter.UsersQueryFilter)">
+            <summary>
+            Instancia que permite la obtención en forma de una Lista de los usuarios almacenados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.GetUser(System.Int32)">
+            <summary>
+            Instancia que permite la obtención de un usuario bajo el parametro de su ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.GetUserCel(System.String)">
+            <summary>
+            Instancia que permite la obtención de un usuario bajo el parametro de su PhoneNumber
+            </summary>
+            <param name="cel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.GetUserForNick(System.String)">
+            <summary>
+            Instancia permite la obtención de un usuario bajo el parametro de su NickName
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.InsertUser(Sween.Core.DTOs.UserDTO)">
+            <summary>
+            Instancia que permite la inserción de usuario mediante un JSON estructurado
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.UpdateUser(System.Int32,System.String)">
+            <summary>
+            Etapa de actualización del usuario //Nombre
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.UpdateImage(System.Int32,System.String)">
+            <summary>
+            Etapa de actualización del usuario //Imagen
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Inactivación de cuenta
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserController.DeleteUserPerm(System.Int32)">
+            <summary>
+            Eliminación permanente de cuenta
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserGroupController.MyGroups(System.Int32)">
+            <summary>
+            Obtiene todos los grupos del usuario mediante el paramentro del ID de usuario
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserGroupController.GetGroup(System.Int32,System.Int32)">
+            <summary>
+            Obtiene un solo grupo mediante los parametros del ID de grupo y ID de usuario
+            </summary>
+            <param name="group"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserGroupController.AddtoGroup(Sween.Core.Entities.UserGroup)">
+            <summary>
+            Inserta un grupo nuevo configurado
+            </summary>
+            <param name="group"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Sween.API.Controllers.UserGroupController.DeleteGroup(System.Int32,System.Int32)">
+            <summary>
+            Borra permanentemente la instancia de grupo seleccionada
+            </summary>
+            <param name="group"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

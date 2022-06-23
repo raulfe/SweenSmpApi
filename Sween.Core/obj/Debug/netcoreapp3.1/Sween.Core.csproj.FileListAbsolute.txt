@@ -1,0 +1,9 @@
+C:\Users\raulf\source\repos\Sween\Sween.Core\bin\Debug\netcoreapp3.1\Sween.Core.deps.json
+C:\Users\raulf\source\repos\Sween\Sween.Core\bin\Debug\netcoreapp3.1\Sween.Core.dll
+C:\Users\raulf\source\repos\Sween\Sween.Core\bin\Debug\netcoreapp3.1\Sween.Core.pdb
+C:\Users\raulf\source\repos\Sween\Sween.Core\obj\Debug\netcoreapp3.1\Sween.Core.AssemblyInfoInputs.cache
+C:\Users\raulf\source\repos\Sween\Sween.Core\obj\Debug\netcoreapp3.1\Sween.Core.AssemblyInfo.cs
+C:\Users\raulf\source\repos\Sween\Sween.Core\obj\Debug\netcoreapp3.1\Sween.Core.csproj.CoreCompileInputs.cache
+C:\Users\raulf\source\repos\Sween\Sween.Core\obj\Debug\netcoreapp3.1\Sween.Core.dll
+C:\Users\raulf\source\repos\Sween\Sween.Core\obj\Debug\netcoreapp3.1\Sween.Core.pdb
+C:\Users\raulf\source\repos\Sween\Sween.Core\obj\Debug\netcoreapp3.1\Sween.Core.csprojAssemblyReference.cache

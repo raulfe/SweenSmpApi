@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wP9FE3IFor6GS3TinXHuVLcIAv5KOEIcmJyFRHRf2D4fay3PU96oYUNK0o6DVPvAlFOy3sf+4g4+2Ccrtsw6yA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\raulf\\source\\repos\\Sween\\Sween.Core\\Sween.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raulf\\.nuget\\packages\\corepush\\3.0.10\\corepush.3.0.10.nupkg.sha512",
+    "C:\\Users\\raulf\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\raulf\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512"
+  ],
+  "logs": []
+}

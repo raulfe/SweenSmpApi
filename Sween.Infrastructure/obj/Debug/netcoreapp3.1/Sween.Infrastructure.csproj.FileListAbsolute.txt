@@ -1,0 +1,15 @@
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Core.dll
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.csprojAssemblyReference.cache
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.AssemblyInfo.cs
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Infrastructure.deps.json
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Infrastructure.runtimeconfig.json
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Infrastructure.runtimeconfig.dev.json
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Infrastructure.dll
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Infrastructure.pdb
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\bin\Debug\netcoreapp3.1\Sween.Core.pdb
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.csproj.CopyComplete
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.dll
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.pdb
+C:\Users\raulf\source\repos\Sween\Sween.Infrastructure\obj\Debug\netcoreapp3.1\Sween.Infrastructure.genruntimeconfig.cache
